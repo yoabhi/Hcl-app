@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="17dp"
+        android:text="About Us"
+        android:textColor="#0099FF"
+         android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="28dp"
+        android:text="HCL Learning Ltd"
+         android:textColor="#0099FF"
+         android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="26dp"
+        android:textColor="#FFFFFF"
+        android:text="HCL Learning Ltd. is a 100% owned subsidiary of HCL Infosystems Ltd. HCL Learning covers the entire spectrum of education and training requirements across schools, colleges, individuals and enterprises. HCL Learning addresses the education and training needs through 2 business verticals:" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="28dp"
+        android:textStyle="bold"
+        android:textColor="#FF8C00"
+        android:text="• K-12 \n\n • Higher Education and Enterprise Learning" 
+        android:textSize="18sp"/>
+
+   
+
+</RelativeLayout>

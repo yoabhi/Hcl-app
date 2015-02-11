@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Main"
+    android:background="@drawable/mainback" 
+    
+    >
+
+  
+      
+    <com.yoAbhi.semiWidget.SemiMenu
+        android:id="@+id/radial_menu"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+       	android:padding="5dp"/>
+    
+    
+    
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/courses"
+        android:layout_alignRight="@+id/courses"
+        android:text="Welcome to HCL CDC"
+        android:gravity="center"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:textSize="25sp" 
+        android:background="@drawable/rect"/>
+
+    <Button
+        android:id="@+id/courses"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/button_main"
+        android:gravity="center"
+        android:text="Courses"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/bfind"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_alignLeft="@+id/career"
+        android:layout_below="@+id/career"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_main"
+        android:text="Find Center" />
+    
+    <Button
+        android:id="@+id/career"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_alignLeft="@+id/courses"
+        android:layout_below="@+id/courses"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_main"
+        android:text="Career Guidance"
+        android:textColor="#FFFFFF" />
+
+    <LinearLayout
+        android:id="@+id/bbb"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/radial_menu"
+        android:layout_below="@+id/bfind"
+        android:orientation="vertical"
+      >
+
+        <Button
+            android:id="@+id/bmystatus"
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:layout_alignLeft="@+id/bfind"
+            android:layout_below="@+id/bfind"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/button_main"
+            android:text="My Status"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</RelativeLayout>

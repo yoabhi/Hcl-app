@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="1" >
+
+    <EditText
+        android:id="@+id/edurl"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+        
+    </EditText>
+
+<Button
+    android:id="@+id/go"
+    android:layout_width="34dp"
+    android:layout_height="34dp"
+    android:background="@drawable/webgox" />
+
+</LinearLayout>
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="41dp"
+    android:orientation="horizontal" 
+    >
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/webbackx" />
+
+    <Button
+        android:id="@+id/refresh"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/forward"
+        android:background="@drawable/webrefx" />
+
+    <Button
+        android:id="@+id/bexit"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_toRightOf="@+id/refresh"
+        android:background="@drawable/webexitx" />
+
+    <Button
+        android:id="@+id/forward"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_toRightOf="@+id/back"
+        android:background="@drawable/webfor" />
+
+</RelativeLayout>
+
+<WebView android:id="@+id/wvWeb"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"/>
+</LinearLayout>

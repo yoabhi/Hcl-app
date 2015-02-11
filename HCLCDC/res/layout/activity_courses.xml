@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+     
+    >
+
+    <ImageView
+        android:id="@+id/ivsoftware"
+        android:layout_width="72dp"
+        android:layout_height="58dp"
+        android:src="@drawable/software" />
+    
+    <TextView
+        android:id="@+id/tvsoftware"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Software Course" 
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="5dp
+        "/>
+    
+</LinearLayout>
+    
+    <Spinner
+        android:id="@+id/spinsoftware"
+        android:layout_width="fill_parent"
+        android:layout_height="53dp"
+        android:background="@drawable/rect"
+        android:prompt="@string/spintitle"
+        android:spinnerMode="dialog" />
+
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+     >
+
+    <ImageView
+        android:id="@+id/ivhardware"
+        android:layout_width="72dp"
+        android:layout_height="58dp"
+        android:src="@drawable/hardware" />
+
+    <TextView
+        android:id="@+id/tvhardware"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hardware Course"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="5dp" />
+
+	</LinearLayout>
+    
+    <Spinner
+        android:id="@+id/spinhardware"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/rect"
+        android:prompt="@string/spintitle"
+        android:spinnerMode="dialog" />
+
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+   >
+
+    <ImageView
+        android:id="@+id/ivindust"
+       android:layout_width="72dp"
+        android:layout_height="58dp"
+        android:src="@drawable/industrial" />
+
+    <TextView
+        android:id="@+id/tvindust"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Industrial Training"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="5dp" />
+
+</LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinindust"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rect"
+        android:prompt="@string/spintitle" />
+
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+   >
+    
+    <ImageView
+        android:id="@+id/ivother"
+        android:layout_width="72dp"
+        android:layout_height="58dp"
+        android:src="@drawable/other" />
+    <TextView
+        android:id="@+id/tvother"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Other Course"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="5dp" />
+
+</LinearLayout>
+
+<Spinner
+    android:id="@+id/spinother"
+    android:layout_width="match_parent"
+    android:layout_height="49dp"
+    android:background="@drawable/rect"
+    android:prompt="@string/spintitle" />
+
+</LinearLayout>

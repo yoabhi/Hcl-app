@@ -1,0 +1,129 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="70dp"
+        android:text="Connect with us"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"></TextView>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="310dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:background="@drawable/bluerect" >
+
+        <EditText
+            android:id="@+id/edreg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView2"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignParentRight="true"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/edbirth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_alignParentRight="true"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="43dp"
+            android:layout_toLeftOf="@+id/edreg"
+            android:text="Registration No."
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/edreg"
+            android:layout_marginTop="40dp"
+            android:text="Date of birth"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/breset"
+            android:layout_below="@+id/edbirth"
+            android:text="DD/MM/YYYY"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FF8C00" />
+
+        <Button
+            android:id="@+id/bsearch"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="34dp"
+            android:background="@drawable/button_main"
+            android:text="Search"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/editText1"
+            android:layout_alignLeft="@+id/textView3"
+            android:text="Certificate No."
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:text="OR"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView5"
+            android:ems="10" />
+
+        <Button
+            android:id="@+id/breset"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignBaseline="@+id/bsearch"
+            android:layout_alignBottom="@+id/bsearch"
+            android:layout_toRightOf="@+id/textView5"
+            android:background="@drawable/button_main"
+            android:text="Reset" />
+
+    </RelativeLayout>
+
+"
+
+</RelativeLayout>

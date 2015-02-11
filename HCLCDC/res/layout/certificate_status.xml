@@ -1,0 +1,244 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     >
+<TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Certificate Status"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:background="#4682B4" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="18dp"
+        android:text="This is to confirm that,Certificate No."
+        android:textColor="#FF8C00"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/certiNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:text="LH-13805"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+<LinearLayout
+     android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+     >
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:text="has been issued to Mr./Mrs." 
+         android:textColor="#FF8C00"
+        android:textSize="15sp"/>
+    
+    <TextView
+    android:id="@+id/stName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:text="Abhishek" 
+     android:textColor="#FFFFFF"
+        android:textSize="15sp"/>
+    
+    
+    </LinearLayout>
+<TextView
+        android:id="@+id/textView5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_marginTop="20dp"
+        android:text="Student Information"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:background="#4682B4" />
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+<TextView
+    android:id="@+id/textView4"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="50"
+    android:layout_marginTop="10dp"
+    android:textColor="#FF8C00"
+        android:textSize="15sp"
+    android:text="Name" 
+    />
+
+<TextView
+    android:id="@+id/stName2"
+   android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="50"
+    android:layout_marginTop="10dp"
+    android:textColor="#FFFFFF"
+    android:textSize="15sp"
+    android:text="Abhishek"  />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+<TextView
+    android:id="@+id/textView6"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="50"
+      android:layout_marginTop="10dp"
+    android:textColor="#FF8C00"
+        android:textSize="15sp"
+    android:text="father's Name" />
+
+<TextView
+    android:id="@+id/stfather"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_weight="50"
+    android:textColor="#FFFFFF"
+    android:textSize="15sp"
+    android:text="Mr.Om Prakash"  />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+<TextView
+    android:id="@+id/textView7"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="50"
+      android:layout_marginTop="10dp"
+  android:textColor="#FF8C00"
+        android:textSize="15sp"
+    android:text="Study Centre" />
+
+<TextView
+    android:id="@+id/stCenter"
+     android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_weight="50"
+    android:textColor="#FFFFFF"
+    android:textSize="15sp"
+    android:text="HCL-CDC Jaipur"  />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+<TextView
+    android:id="@+id/textView8"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:layout_weight="50"
+    android:textColor="#FF8C00"
+        android:textSize="15sp"
+    android:text="Date of Birth" />
+
+<TextView
+    android:id="@+id/stDOB"
+     android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_weight="50"
+    android:textColor="#FFFFFF"
+    android:textSize="15sp"
+    android:text="21/01/1993"  />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+<TextView
+    android:id="@+id/textView9"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="50"
+      android:layout_marginTop="10dp"
+    android:textColor="#FF8C00"
+        android:textSize="15sp"
+    android:text="Certificate No." />
+
+<TextView
+    android:id="@+id/stCertiNo"
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_weight="50"
+    android:textColor="#FFFFFF"
+    android:textSize="15sp"
+    android:text="LH-13805" />
+
+</LinearLayout>
+<TextView
+        android:id="@+id/textView12"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_marginTop="20dp"
+        android:text="Module Discription"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:background="#4682B4" />
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+     >
+<TextView
+    android:id="@+id/textView10"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:textColor="#FFFFFF"
+    android:textSize="15sp"
+    android:textStyle="bold"
+    android:text="1.Project Training-" />
+
+<TextView
+    android:id="@+id/c_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:textSize="15sp"
+    android:textStyle="bold"
+    android:textColor="#FFFFFF"
+    android:text="Android" />
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+     >
+  <ScrollView android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:layout_weight="10"
+      >  
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/edname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email" />
+
+    <EditText
+        android:id="@+id/edemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tvmobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile no." />
+
+    <EditText
+        android:id="@+id/edmob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tvcourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selected Course" />
+
+    <Spinner
+        android:id="@+id/spincourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvques"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Any Question?" />
+
+    <EditText
+        android:id="@+id/edques"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tvstate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="State" />
+
+    <Spinner
+        android:id="@+id/statespin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvcity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="City/Centre" />
+
+    <Spinner
+        android:id="@+id/cityspin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+</ScrollView>
+   <LinearLayout android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:orientation="horizontal"
+       android:layout_weight="90"
+      >
+
+       <Button
+           android:id="@+id/submit"
+           android:layout_width="144dp"
+           android:layout_height="33dp"
+           android:background="@drawable/button_main"
+           android:text="Submit" />
+
+       <Button
+           android:id="@+id/cancel"
+           android:layout_width="156dp"
+           android:layout_height="32dp"
+           android:background="@drawable/button_main"
+           android:text="Cancel" />
+
+   </LinearLayout>
+
+</LinearLayout>
