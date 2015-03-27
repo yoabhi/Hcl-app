@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:text="Made By-Abhishek"
+        android:text="Made By-Kirti"
         android:textColor="#0099FF"
         android:textSize="15sp"
         android:textStyle="bold" />
